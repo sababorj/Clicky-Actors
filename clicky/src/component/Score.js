@@ -2,15 +2,15 @@ import React from 'react';
 
 function Score(props){
     return (
-    <nav className="navbar">
+    <nav className="nav">
     <ul>
-        <li className="brand">
-        <a href="/">Clicky Game</a>
+        <li className="nav-item">
+        Clicky Game
         </li>
-        <li>
+        <li className="nav-item">
         {props.result}
         </li>
-        <li>
+        <li className="nav-item">
         Score: {props.score} | Top Score: {props.topScore}
         </li>
     </ul>
