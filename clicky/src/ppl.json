@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/Jameela.jpg"
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/Jen.jpg"
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/Jermy-renner.jpg"
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/jodie-foster.jpg"
+    },{
+        "id": 5,
+        "image": "/assets/images/johnny.jpg"
+    },{
+        "id": 6,
+        "image": "/assets/images/leonardo.jpg"
+    },{
+        "id": 7,
+        "image": "/assets/images/Meghan-Markle.jpg"
+    },{
+        "id": 8,
+        "image": "/assets/images/Meryl-Streep.jpg"
+    },{
+        "id": 9,
+        "image": "/assets/images/nicole.jpg"
+    },{
+        "id": 10,
+        "image": "/assets/images/sandra-bullock.jpg"
+    },{
+        "id": 11,
+        "image": "/assets/images/tina-fay.jpg"
+    }
+]
