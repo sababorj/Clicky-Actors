@@ -33,8 +33,7 @@ shuffleArray(array) {
 
 clickHandle = id => {
   // is this picture is clicked before
-  const guessedBefore = this.state.guessArray.includes(id)
-  alert(guessedBefore)
+  const guessedBefore = this.state.guessArray.includes(id);
   if(guessedBefore){
     // check if user hit new top score
     if(this.state.score > this.state.topScore){
@@ -51,17 +50,15 @@ clickHandle = id => {
       })
       this.shuffleArray(this.state.ppl)
     }
-    alert("you lose")
    } // continue 
   else {
     this.setState({
       score: this.state.score+1,
-      guessArray: this.state.guessArray.push(id),
+      guessArray: [...this.state.guessArray, id],
       result: "you guessed correctly"
     })
-  }
-  console.log(this.state)
-  
+    this.shuffleArray(this.state.ppl)
+  } 
 }
 
   render() {
