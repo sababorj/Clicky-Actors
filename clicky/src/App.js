@@ -40,22 +40,31 @@ clickHandle = id => {
       this.setState({
         topScore: this.state.score,
         score : 0,
-        result : "incorrect!!"
+        result : "You have already clicked this one!!"
       })
       this.shuffleArray(this.state.ppl)
     } else {
       this.setState({
         score : 0,
-        result : "incorrect!!"
+        result : "You have already clicked this one!!"
       })
       this.shuffleArray(this.state.ppl)
     }
    } // continue 
   else {
+    if(this.state.score === (this.state.numberOfPpl-1)){
+      this.setState({
+        score: 0,
+        topScore: 0,
+        guessArray: [],
+        result: "Wellcome back"
+      })
+      alert("you hit the topest score! well done. to play over close this window")
+    }
     this.setState({
       score: this.state.score+1,
       guessArray: [...this.state.guessArray, id],
-      result: "you guessed correctly"
+      result: "you guessed correctly, keep going!"
     })
     this.shuffleArray(this.state.ppl)
   } 
