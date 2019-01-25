@@ -1,0 +1,14 @@
+.scoregame{
+    background-color: cadetblue;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0 auto 20px;
+    font-weight: bolder;
+}
+
+a {
+    color: white
+}
