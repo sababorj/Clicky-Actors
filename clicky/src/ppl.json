@@ -35,5 +35,9 @@
     },{
         "id": 11,
         "image": "/assets/images/tina-fay.jpg"
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/nic.jpg"
     }
 ]

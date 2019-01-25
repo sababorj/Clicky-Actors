@@ -6,7 +6,7 @@ import Ppl from './component/Ppl/index'
 
 class App extends Component {
 state = {
-  result: "",
+  result: "Lets start",
   score: 0,
   topScore: 0,
   ppl: ppl,
