@@ -40,13 +40,15 @@ clickHandle = id => {
       this.setState({
         topScore: this.state.score,
         score : 0,
-        result : "You have already clicked this one!!"
+        result : "You have already clicked this one!!",
+        guessArray: [],
       })
       this.shuffleArray(this.state.ppl)
     } else {
       this.setState({
         score : 0,
-        result : "You have already clicked this one!!"
+        result : "You have already clicked this one!!",
+        guessArray: [],
       })
       this.shuffleArray(this.state.ppl)
     }
